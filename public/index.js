@@ -23,9 +23,12 @@ class Greeting extends React.Component {
 
   render() {
     return (
-      <button onClick={this.handleClick}>
-        Close
-      </button>
+      <div>
+        Please press button!
+        <button onClick={this.handleClick}>
+          Close
+        </button>
+      </div>
     );
   }
 }
