@@ -1,2 +1,2 @@
-# test
-Just for testing programs
+# Testing repository
+Only for development and testing

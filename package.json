@@ -1,0 +1,32 @@
+{
+  "name": "nlbvita",
+  "version": "1.0.0",
+  "description": "NLB Vita API server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/startupmarketing/NLBVita.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/startupmarketing/NLBVita/issues"
+  },
+  "homepage": "https://github.com/startupmarketing/NLBVita#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.1",
+    "querystring": "^0.2.0",
+    "vhost": "^3.0.2"
+  }
+}
