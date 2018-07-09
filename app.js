@@ -12,9 +12,9 @@ mongoose.connect(
 app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
-app.use(express.static('public/'));// setup static files into public folder
+app.use('/test', express.static('public/'));// setup static files into public folder
 
-app.use('/nlbvita/api', currencyExchangeRoutes);
-app.use('/nlbvita/webviews', webviewsRoutes);
+app.use('/test', currencyExchangeRoutes);
+app.use('/test/webviews', webviewsRoutes);
 
 module.exports = app;

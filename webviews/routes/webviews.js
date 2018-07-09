@@ -47,7 +47,7 @@ const createButtons = (displayUrl) => {
 //Testing req/res
 
 router.get('/show', (req, res, next) => {
-	res.sendFile('/home/rand/startupmarketing/test/index.html');
+	res.sendFile('/var/www/messengerbot.si/api/test/public/index.html');
 });
 
 router.get('/currency_exchange/chatfuel', (req, res, next) => {
