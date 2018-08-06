@@ -1,0 +1,65 @@
+const URL = "https://api.messengerbot.si";
+const URL_TEMP = "http://localhost:8000";
+
+var QUIZ_QUESTIONS = [
+  {
+    "question" : "How do you like to travel?",
+    "top" : "adventurer",
+    "bottom" : "romantic",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/visit-dolenjska/quiz-eng/images/1.vprašanje/Avanturist.jpg",
+    "bottom_pic" : "/public/visit-dolenjska/quiz-eng/images/1.vprašanje/Romantik.jpg"
+  },
+  {
+    "question" : "Which picture best represents your kind of pleasure?",
+    "top" : "gurmet",
+    "bottom" : "romantic",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/visit-dolenjska/quiz-eng/images/2.vprašanje/Gurman2.jpg",
+    "bottom_pic" : "/public/visit-dolenjska/quiz-eng/images/2.vprašanje/romantik2.jpg"
+  },
+   {
+    "question" : "It has been a long week. How will you relax on weekend?",
+    "top" : "adventurer",
+    "bottom" : "romantic",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/visit-dolenjska/quiz-eng/images/3.vprašanje/avanturist3.jpg",
+    "bottom_pic" : "/public/visit-dolenjska/quiz-eng/images/3.vprašanje/Romantik3.jpg"
+  },
+   {
+    "question" : "What would you take on deserted island?",
+    "top" : "gurmet",
+    "bottom" : "romantic",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/visit-dolenjska/quiz-eng/images/4.vprašanje/gurman4.jpg",
+    "bottom_pic" : "/public/visit-dolenjska/quiz-eng/images/4.vprašanje/romantik4.jpg"
+  },
+   {
+    "question" : "What does the word nature remind you of?",
+    "top" : "adventurer",
+    "bottom" : "gurmet",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/visit-dolenjska/quiz-eng/images/5.vprašanje/avanturist5.jpg",
+    "bottom_pic" : "/public/visit-dolenjska/quiz-eng/images/5.vprašanje/gurman5.jpg"
+  },
+   {
+    "question" : "Where do you go out - dinner or concert?",
+    "top" : "adventurer",
+    "bottom" : "gurmet",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/visit-dolenjska/quiz-eng/images/6.vprašanje/avanturist.jpg",
+    "bottom_pic" : "/public/visit-dolenjska/quiz-eng/images/6.vprašanje/gurman.jpg"
+  }
+];

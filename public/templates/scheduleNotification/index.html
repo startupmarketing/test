@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+
+    <title>Koledar</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="/public/templates/scheduleNotification/src/webvUI.min.css">
+    <link rel="stylesheet" href="/public/templates/scheduleNotification/src/webvUI-menu.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/public/templates/scheduleNotification/src/webvUI.min.js"></script>
+    <script type="text/javascript" src="/public/templates/scheduleNotification/src/webvUI-menu.js"></script>
+    <script type="text/javascript" src="/public/templates/scheduleNotification/src/webvUI-slider.js"></script>
+    <script type="text/javascript">
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.com/en_US/messenger.Extensions.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'Messenger'));
+    </script>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" class="picker js_show">
+         /*   
+            function calendar () {
+            webvUI.datePicker({
+                start: new Date().getFullYear(),
+                end: new Date().getFullYear() + 2,
+                onChange: function(result) {
+                    console.log(result);
+                },
+                onConfirm: function(result) {
+                    console.log(result);
+                }
+            });
+        }
+            calendar();
+            */
+    </script>
+    <div id="app"></div>
+
+
+    <script type="text/babel" src="/public/templates/scheduleNotification/js/index.js"></script>
+
+
+</body>
+</html>

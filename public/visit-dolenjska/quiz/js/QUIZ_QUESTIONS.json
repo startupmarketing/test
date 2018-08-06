@@ -1,0 +1,65 @@
+const URL = "https://api.messengerbot.si";
+const URL_TEMP = "http://localhost:8000";
+
+var QUIZ_QUESTIONS = [
+  {
+    "question" : "Kako najraje potuješ?",
+    "top" : "avanturist",
+    "bottom" : "romantik",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/visit-dolenjska/quiz/images/1.vprašanje/Avanturist.jpg",
+    "bottom_pic" : "/public/visit-dolenjska/quiz/images/1.vprašanje/Romantik.jpg"
+  },
+  {
+    "question" : "Katera slika najbolje predstavlja užitek?",
+    "top" : "gurman",
+    "bottom" : "romantik",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/visit-dolenjska/quiz/images/2.vprašanje/Gurman2.jpg",
+    "bottom_pic" : "/public/visit-dolenjska/quiz/images/2.vprašanje/romantik2.jpg"
+  },
+   {
+    "question" : "Za tabo je naporen teden. Kako bi se sprostil za vikend?",
+    "top" : "avanturist",
+    "bottom" : "romantik",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/visit-dolenjska/quiz/images/3.vprašanje/avanturist3.jpg",
+    "bottom_pic" : "/public/visit-dolenjska/quiz/images/3.vprašanje/Romantik3.jpg"
+  },
+   {
+    "question" : "Kaj bi vzel na samotni otok?",
+    "top" : "gurman",
+    "bottom" : "romantik",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/visit-dolenjska/quiz/images/4.vprašanje/gurman4.jpg",
+    "bottom_pic" : "/public/visit-dolenjska/quiz/images/4.vprašanje/romantik4.jpg"
+  },
+   {
+    "question" : "Kaj pomisliš, ko zaslišiš besedo narava?",
+    "top" : "avanturist",
+    "bottom" : "gurman",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/visit-dolenjska/quiz/images/5.vprašanje/avanturist5.jpg",
+    "bottom_pic" : "/public/visit-dolenjska/quiz/images/5.vprašanje/gurman5.jpg"
+  },
+   {
+    "question" : "Kam se raje odpraviš zvečer - na večerjo ali koncert?",
+    "top" : "avanturist",
+    "bottom" : "gurman",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/visit-dolenjska/quiz/images/6.vprašanje/avanturist.jpg",
+    "bottom_pic" : "/public/visit-dolenjska/quiz/images/6.vprašanje/gurman.jpg"
+  }
+];

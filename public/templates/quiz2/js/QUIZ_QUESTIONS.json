@@ -1,0 +1,25 @@
+const URL = "https://api.messengerbot.si";
+const URL_TEMP = "http://localhost:8000";
+
+var QUIZ_QUESTIONS = [
+  {
+    "question" : "Čigavi zadetek ti je bolj všeč?",
+    "top" : "Dončič",
+    "bottom" : "Gogi",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/templates/quiz/images/Doncic.gif",
+    "bottom_pic" : "/public/templates/quiz/images/Gogi.gif"
+  },
+  {
+    "question" : "Imaš raje pokemon ali star wars?",
+    "top" : "pikachu",
+    "bottom" : "star wars",
+    "anwser" : null,
+    "anwser_pic_top" : "/public/templates/quiz/images/i_success.svg",
+    "anwser_pic_bot" : "/public/templates/quiz/images/i_success.svg",
+    "top_pic" : "/public/templates/quiz/images/pikachu.gif",
+    "bottom_pic" : "/public/templates/quiz/images/star_wars.gif"
+  }
+];

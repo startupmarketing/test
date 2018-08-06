@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* ------ forms ----- */
+
+
+.btn {
+    border: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+    
+    .btn-primary {
+        background: #0084ff;
+        font-weight: 300;
+    }
+
+.form-control {
+    font-weight: 300;
+}
+
+.main-container {
+    padding-bottom: 15%;
+    padding-top: 2px;
+}
+
+.form-label {
+    color: #99a2ab;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+}
+
+/* ----- layout ----- */
+
+.app-wrap {
+    width: 450px;
+    padding: 16px;
+    margin: 16px;
+    background: #fafafa;
+}
+
+
+.currency-content {
+    /*background: #ffffff;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,.1);*/
+}
+.currencyTo{
+    margin-right: 25%;
+    display: flex;
+}
+
+.currencyFrom{
+    margin-right: 25%;
+    display: flex;
+}
+
+.currencyTo label, .currencyFrom label {
+    width: 20px;
+}
+
+.currencyTo .webvUI-cells, .currencyFrom .webvUI-cells {
+    width: calc(100% - 20px);
+}
+
+
+
+.swap {
+    text-align: right;
+    margin-right: 10%;
+    float: right;
+    margin-top: -15px;
+}
+
+.arrow {
+    text-align: center;
+
+}
+
+    .placeholder .arrow img {
+        position: relative;
+        top: 40px;
+    }
+
+.arrow-right {
+    padding: 0 15px;
+}
+
+.result-container {
+    margin-top: 2px;
+}
+
+.result {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 4px 15px
+}
+
+
+
+
+
+.placeholder {
+}

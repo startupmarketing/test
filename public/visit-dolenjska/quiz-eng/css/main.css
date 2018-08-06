@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* ----- forms ----- */
+
+.btn {
+    border: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+    
+    .btn-primary {
+        background: #0084ff;
+        font-weight: 300;
+    }
+
+.form-control {
+    font-weight: 300;
+}
+
+.form-label {
+    color: #99a2ab;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+}
+
+/* ----- layout ----- */
+
+.app-wrap {
+    width: 450px;
+    padding: 16px;
+    margin: 16px;
+    background: #fafafa;
+}
+
+.currency-content {
+    /*background: #ffffff;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,.1);*/
+}
+
+.swap {
+    text-align: center;
+    padding: 20px 0 0px;
+}
+
+.arrow {
+    text-align: center;
+
+}
+
+    .placeholder .arrow img {
+        position: relative;
+        top: 40px;
+    }
+
+.arrow-right {
+    padding: 0 15px;
+}
+
+
+.result {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 4px 15px
+}
+
+.main-container {
+    padding-bottom: 15%;
+}
+
+
+
+
+.top-image, .bottom-image {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.top-image img, .bottom-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.answer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer img {
+    height: 70px;
+    width: auto;
+}
+
+.separator-wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+.separator {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f8f8;
+    border-radius: 50%;
+    margin: -25px auto -20px;
+    position: relative;
+    z-index: 100;
+}
+
+
